@@ -13,7 +13,7 @@
 
 ## Overview
 <div align="center">
-<img src="figures/overview.png" width="100%" alt="Self-Validation Framework Overview"/>
+<img src="figures/overview.png" width="80%" alt="Self-Validation Framework Overview"/>
 </div>
 
 ---
