@@ -11,6 +11,30 @@
 
 </div> 
 
+## Overview
+<div align="center">
+<img src="figures/overview.png" width="100%" alt="Self-Validation Framework Overview"/>
+</div>
+
+---
+
+**Problem**: Object hallucination in LVLMs—generating descriptions of non-existent objects worsens as generation length increases.
+
+**Root Cause**: Models over-rely on language priors rather than visual evidence.
+
+**Solution**: A training-free **Self-Validation Framework** with two steps:
+
+1. **Candidates Verifications**: Sample multiple candidate captions, extract candidate objects, and verify each object's existence via Language-Prior Free Verfication (LPFV).
+
+2. **Final Caption Production**:
+   - **Best-of-N (BoN)**: Select the caption with highest verification confidence
+   - **Filter-then-Aggregate (FtA)**: Filter low-confidence objects and aggregate into final caption
+
+**Results**: 65.6% improvement on CHAIR_I with LLaVA-v1.5-7B, surpassing prior SOTA methods.
+
+
+
+
 ## Table of Contents
 1. [Environment Setup](#1-environment-setup)
 2. [Data Preparation](#2-data-preparation)
