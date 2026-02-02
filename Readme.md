@@ -5,8 +5,7 @@
 
 
 <div align="center"> 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)]([https://arxiv.org/abs/](https://arxiv.org/abs/2601.22451
-))
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org/abs/2601.22451)
 [![License](https://img.shields.io/badge/LICENSE-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 
 </div> 
